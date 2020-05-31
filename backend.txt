@@ -101,7 +101,7 @@ def probe_device(ip, port, community, version, conn):
 
 while True:
 	conn = None
-	conn = sqlite3.connect('mydatabase.db')
+	conn = sqlite3.connect('sivani.db')
 
 	if conn:
 		information = conn.execute('Select * from info')
